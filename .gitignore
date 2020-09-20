@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# DllInjection
+*.user
+.vs
+Release
+x64
