@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllInjectionWithThreadConte
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BeInjectedDll", "BeInjectedDll\BeInjectedDll.vcxproj", "{6FCC3547-8CFE-4B87-B77A-9AB28A0C4DA5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThreadContext", "ThreadContext", "{5D75CFEC-CE73-40CA-9F99-42DCEB7B236B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BeInjectedDll", "BeInjectedDll", "{F3CE4F00-CD80-4646-A0C9-D60651CC0351}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -34,6 +38,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D6ED5A5-ACDB-4913-B73B-CAFA49E8D4BD} = {5D75CFEC-CE73-40CA-9F99-42DCEB7B236B}
+		{6FCC3547-8CFE-4B87-B77A-9AB28A0C4DA5} = {F3CE4F00-CD80-4646-A0C9-D60651CC0351}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94F653A5-21D5-46C6-A587-D0F65F0F6086}
