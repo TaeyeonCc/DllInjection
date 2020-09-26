@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThreadContext", "ThreadCont
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BeInjectedDll", "BeInjectedDll", "{F3CE4F00-CD80-4646-A0C9-D60651CC0351}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HangProcess", "HangProcess", "{64545F04-469A-437C-8F4A-3653658AA48C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DllInjectionWithHangProcess", "DllInjectionWithHangProcess\DllInjectionWithHangProcess.vcxproj", "{D56575EC-6C07-4969-9F03-F57C9D940166}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -35,6 +39,14 @@ Global
 		{6FCC3547-8CFE-4B87-B77A-9AB28A0C4DA5}.Release|x64.Build.0 = Release|x64
 		{6FCC3547-8CFE-4B87-B77A-9AB28A0C4DA5}.Release|x86.ActiveCfg = Release|Win32
 		{6FCC3547-8CFE-4B87-B77A-9AB28A0C4DA5}.Release|x86.Build.0 = Release|Win32
+		{D56575EC-6C07-4969-9F03-F57C9D940166}.Debug|x64.ActiveCfg = Debug|x64
+		{D56575EC-6C07-4969-9F03-F57C9D940166}.Debug|x64.Build.0 = Debug|x64
+		{D56575EC-6C07-4969-9F03-F57C9D940166}.Debug|x86.ActiveCfg = Debug|Win32
+		{D56575EC-6C07-4969-9F03-F57C9D940166}.Debug|x86.Build.0 = Debug|Win32
+		{D56575EC-6C07-4969-9F03-F57C9D940166}.Release|x64.ActiveCfg = Release|x64
+		{D56575EC-6C07-4969-9F03-F57C9D940166}.Release|x64.Build.0 = Release|x64
+		{D56575EC-6C07-4969-9F03-F57C9D940166}.Release|x86.ActiveCfg = Release|Win32
+		{D56575EC-6C07-4969-9F03-F57C9D940166}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,6 +54,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6D6ED5A5-ACDB-4913-B73B-CAFA49E8D4BD} = {5D75CFEC-CE73-40CA-9F99-42DCEB7B236B}
 		{6FCC3547-8CFE-4B87-B77A-9AB28A0C4DA5} = {F3CE4F00-CD80-4646-A0C9-D60651CC0351}
+		{D56575EC-6C07-4969-9F03-F57C9D940166} = {64545F04-469A-437C-8F4A-3653658AA48C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {94F653A5-21D5-46C6-A587-D0F65F0F6086}

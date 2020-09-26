@@ -127,3 +127,8 @@ BOOL  GetProcessNameByProcessId(int  nID, wstring& strName)
 	CloseHandle(hProcessSnap);
 	return   TRUE;
 }
+
+void MessageBox(string strMeaage)
+{
+	::MessageBoxA(NULL, strMeaage.c_str(), strMeaage.c_str(), MB_OK);
+}
