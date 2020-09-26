@@ -14,11 +14,11 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
     <Filter Include="Common">
-      <UniqueIdentifier>{9d919af2-0381-4563-a00c-52452559b012}</UniqueIdentifier>
+      <UniqueIdentifier>{8fee1110-c75a-48bc-a752-8d4ce355b665}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="DllInjectionWithThreadContext.cpp">
+    <ClCompile Include="DllInjectionWithHangProcess.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\Common\Helper.cpp">
